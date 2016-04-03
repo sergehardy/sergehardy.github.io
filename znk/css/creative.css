@@ -181,7 +181,8 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/chabada-2.jpg);
+    #background-image: url(../img/chabada-2.jpg);
+    background-image: url(https://raw.githubusercontent.com/sergehardy/sergehardy.github.io/master/znk/img/chabada-2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
