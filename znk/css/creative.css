@@ -65,7 +65,9 @@ p {
 }
 
 section {
-    padding: 100px 0;
+    #padding: 100px 0;
+    padding: 50px 0;
+
 }
 
 aside {
@@ -104,6 +106,7 @@ aside {
     font-weight: 700;
     color: #222;
 }
+
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
@@ -178,7 +181,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/chabada-2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -478,36 +481,49 @@ body {
 
 section#z
 {
-    background-image: url(../img/header.jpg);
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  background-image: url('../img/rennes-2.jpg');
+  background-size: 100%;
+  
 }
 section#e
 {
-  background-image: url('../img/_nineties.jpg');
-  background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+  background-image: url('../img/pc-2.jpg');
+  background-size: 100%;
 }
 section#n
 {
-  background-image: url('../img/zik.jpg');
+  background-image: url('../img/90-2.jpg');
+  background-size: 100%;
 }
 section#i
 {
-  background-image: url('../img/staderennais.jpg');
+  background-image: url('../img/srfc-2.jpg');
+  background-size: 100%;
   
 }
 section#k
 {
-  background-image: url('../img/rennes.jpg');
+  background-image: url('../img/agile-2.jpg');
+  background-size: 100%;
 }
 section#a
 {
-  background-image: url('../img/college.jpg');
+  background-image: url('../img/studio-2.jpg');
+  background-size: 100%;
+}
+
+
+.text-faded {
+background:rgba(30,30,30,.7);
+margin: 0 0 0 0;
+#padding: 10 10 10 10;
+}
+p{
+text-indent: 30px;
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+div.header-content-inner{
+background:rgba(30,30,30,.4);
 }
